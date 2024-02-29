@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.6.12 <0.9.0;
 
-contract Escrow {
+contract BasicEscrow {
   // storage state variables 
     address public depositor;
     address public beneficiary;
